@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fitness boutique</title>
+        <link rel="icon" href="../img/logo2.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    </head>
+    
+    <body id="home">
+        <div id="containerHome" class="clearfix">
+        <header id="headHome">
+            <div id="logo"></div>
+            <nav>
+            <ul id="navigacija">
+                <li><a class="active" href="Index.html">Početna</a></li>
+                <div class="dropdown">
+                    <li class="dropbtn"><a href="#">Usluge</a></li>
+                    <div class="dropdown-content">
+                        <a href="Personalni.html">Personalni trening</a>
+                        <a href="Grupni.html">Grupni trening</a>
+                    </div>
+                </div>
+                <li><a href="Galerija.html">Galerija</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+            </ul>
+            </nav>
+        </header>
+
+          <div id="informacije">
+             <marquee>ZA 3 MESECA CLANARINE <span id="popust">20% POPUSTA</span> NA UKUPNU CENU.</marquee> 
+          </div>     
+
+          <div id="oNama" >
+             <article id="osnovno2">
+
+                <section id="oNamaNaslov">
+                 <h1>O nama</h1>
+                </section>
+
+                <section id="text">
+                  <p>
+                    Fitness Boutique je prvi fitnes centar na našim prostorima specijalizovan isključivo za žene koji je otvoren 2002. u Beogradu. U skladu sa parolom: “Vežbanje je radost bez obzira na starost”, pripadicama lepšeg pola nudimo raznovrsne grupne programe i individualne treninge za Vaš potpuni preobražaj.
+                  </p>             
+                </section> 
+              </article> 
+          </div>
+
+        <div id="dugmad" >
+            <button id="cenovnik">Cenovnik</button>
+            <button id="forma">Popuni formu</button>     
+        </div>
+       
+        <div id="cena">  
+            
+         
+        </div>
+        
+        <form id="konForma1">
+        <fieldset>
+            <legend>Kontaktiraj nas</legend>
+
+            <label>Vaše Ime i Prezime:</label><br>
+            <input id="imePrezime" type="text" placeholder="Unesite Vaše ime i prezime" required>
+            <br>
+
+            <label>E-mail:</label><br>
+            <input id="email" type="email" placeholder="Unesite Vaš e-mail" required>
+            <br>
+
+            <label>Odaberite clanarinu:</label><br>
+            <input type="radio" name="clanarina" value="1">Mesecna<br>
+            <input type="radio" name="clanarina" value="2">Tromesecna<br>
+            <input type="radio" name="clanarina" value="2">Godisnja<br>
+
+            <label>Mobilni:</label><br>
+            <input id="phone" type="tel" placeholder="(+381)" required>
+            <br>
+
+            <label>Poruka</label><br>
+            <textarea></textarea><br>
+
+            <input id="send" type="submit" value="Pošalji">
+            <input type="reset" value="Izbriši">
+
+        </fieldset>
+        </form>
+            
+    <footer>
+       <p>Copyright &copy; 2019</p>     
+    </footer>    
+                
+    </div>  
+      <script src="js/jquery-3.1.1.js"></script> 
+      <script src="js/java.js"></script>    
+    </body>
+</html>
